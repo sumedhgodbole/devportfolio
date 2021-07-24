@@ -6,317 +6,363 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio Sumedh Godbole</title>
-	<link rel="shortcut icon" href="favicons/favicon_new_48.ico" type="image/x-icon">
-	<link rel="icon" href="favicons/favicon_new_48.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicons/favicon_new_48.ico" type="image/x-icon">
+    <link rel="icon" href="favicons/favicon_new_48.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EYB810Z4P4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-EYB810Z4P4');
+    </script>
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+<div id="mobile-menu-open" class="shadow-large">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+</div>
+<!-- End #mobile-menu-toggle -->
+<header>
+    <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
     </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
+    <ul id="menu" class="shadow">
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#experience">Experience</a>
+        </li>
+        <li>
+            <a href="#education">Education</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+</header>
+<!-- End header -->
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Sumedh Godbole</h1>
-            <h2>Master of Science in Computer Science <br> Arizona State University</h2>
-            <a style="margin-right:1em", target="_blank" , href="https://sumedhgodbole.github.io/resume/" class="btn-rounded-white">Resume</a>  <!-- add resume link here -->
-            <a target="_blank" , href="https://sumedhgodbole.github.io/thesis/" class="btn-rounded-white">Thesis</a>
-            <!-- add thesis link here-->
+<div id="lead">
+    <div id="lead-content">
+        <h1>Sumedh Godbole</h1>
+        <h2>Master of Science in Computer Science <br> Arizona State University</h2>
+        <a style="margin-right:1em" , target="_blank" , href="https://sumedhgodbole.github.io/resume/"
+           class="btn-rounded-white">Resume</a>  <!-- add resume link here -->
+        <a target="_blank" , href="https://sumedhgodbole.github.io/thesis/" class="btn-rounded-white">Thesis</a>
+        <!-- add thesis link here-->
     </div>
     <!-- End #lead-content -->
 
-            <div id="lead-overlay"></div>
+    <div id="lead-overlay"></div>
 
-            <div id="lead-down">
+    <div id="lead-down">
                 <span>
                     <i class="fa fa-chevron-down" aria-hidden="true"></i>
                 </span>
-            </div>
-            <!-- End #lead-down -->
-        </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p> I graduated from the ASU School of Computing, Informatics, and Decision Systems Engineering with a Master of Science in Computer Science on the 3rd of May, 2021. I have laboratory experience in Deep Learning, Robotics, and Computer Vision working at the <a target = "_blank", href="https://yezhouyang.engineering.asu.edu/research-group/">ASU Active Perception Group. </a>
-                    Other than working with Robots and Simulators, I enjoy good music, good food and going for a swim. I work out from time-to-time to keep my body on its feet (no pun intended). 
-                    The Brain likes to go into 'Screen Saver' mode in the absence of a constant stimulus. 
-                    I am an all-out science fiction nerd and am always on the lookout for technology that might make it all a reality one day! 
-                    Unfortunately though, no one can be told what the Matrix is... you'll have to see it for yourself. 
-  
-                    </p>
-                </div>
-            </div>
-        </div>
     </div>
-    <!-- End #about -->
+    <!-- End #lead-down -->
+</div>
+<!-- End #lead -->
 
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-	    <div data-date="Jan 2021 - May 2021">
-                <h3>The Master's Opportunity for Research in Engineering</h3>
-                <h4><a target = "_blank", href="https://furi.engineering.asu.edu/participant/godbole-sumedh/">Symposium 2021 - Sumedh Godbole</a></h4>
-                <p>
-                   Developed a pragmatic and robust prediction-based autonomous pursuit agent by emulating the function of dACC neurons in natural predators. (Poster viewable at the link above)
-                </p>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="heading">About Me</h2>
             </div>
-            <div data-date="May 2020 – August 2020">
-                <h3>ASU Active Perception Group</h3>
-                <h4>Graduate Services Assistant</h4>
-                <p>
-                    Worked as a Research Assistant with the Active Perception Group at ASU for Summer 2020. Conducted research involving Autonomous Vehicles, Tracking, Navigation and Prediction methodologies.
-                </p>
-            </div>
+            <div class="col-md-8">
+                <p> I graduated from the ASU School of Computing, Informatics, and Decision Systems Engineering with a
+                    Master of Science in Computer Science on the 3rd of May, 2021. I have laboratory experience in Deep
+                    Learning, Robotics, and Computer Vision working at the <a target="_blank" ,
+                                                                              href="https://yezhouyang.engineering.asu.edu/research-group/">ASU
+                        Active Perception Group. </a>
+                    Other than working with Robots and Simulators, I enjoy good music, good food and going for a swim. I
+                    work out from time-to-time to keep my body on its feet (no pun intended).
+                    The Brain likes to go into 'Screen Saver' mode in the absence of a constant stimulus.
+                    I am an all-out science fiction nerd and am always on the lookout for technology that might make it
+                    all a reality one day!
+                    Unfortunately though, no one can be told what the Matrix is... you'll have to see it for yourself.
 
-            <div data-date="August 2019 - December 2019">
-                <h3>CIDSE ASU</h3>
-                <h4>Graduate Teaching Assistant</h4>
-                <p>
-                    Teaching Assistant for CSE 110 - Principles of Programming (Java). Responsible for conducting Lab Sessions, Office Hours and Grading Exams.
-                </p>
-            </div>
-
-            <div data-date="July 2018 – July 2019">
-                <h3>Sahir Projects</h3>
-                <h4>Machine Learning Engineer</h4>
-                <p>
-                    Responsible for engineering a Machine Learning proof-of-concept exercise resulting in the eventual adoption of a Machine Learning framework by the company.
-                Synthesized training data for the exercise by making use of random normal distributions and labeled it using a complex rule based system.
-                Designed a model to predict the probability of a company winning a bid using a Random Forest classifier for its low bias, resulting in a 9% increase in the number of bids won compared to the last financial quarter.
                 </p>
             </div>
         </div>
     </div>
-    <!-- End #experience -->
+</div>
+<!-- End #about -->
 
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>Arizona State University</h3>
-            <span class="education-date">August 2019 - May 2021</span>
-            <h4>Master of Science in Computer Science (3.83/4.0)</h4>
+<div id="experience" class="background-alt">
+    <h2 class="heading">Experience</h2>
+    <div id="experience-timeline">
+        <div data-date="Jan 2021 - May 2021">
+            <h3>The Master's Opportunity for Research in Engineering</h3>
+            <h4><a target="_blank" , href="https://furi.engineering.asu.edu/participant/godbole-sumedh/">Symposium 2021
+                - Sumedh Godbole</a></h4>
             <p>
-                Masters Student at CIDSE, ASU with the Thesis Option specializing in Artificial Intelligence.
+                Developed a pragmatic and robust prediction-based autonomous pursuit agent by emulating the function of
+                dACC neurons in natural predators. (Poster viewable at the link above)
             </p>
         </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>Sant Gadge Baba Amravati University</h3>
-            <span class="education-date">July 2013 - Sept 2017</span>
-            <h4>Bachelor of Engineering in Computer Science and Engineering (9.11/10.0)</h4>
-            <p>Studied at JSMP's Babasaheb Naik College of Engineering, Amravati University. Ranked 7th on the University Merit List for the Department of Computer Science.</p>
-            
+        <div data-date="May 2020 – August 2020">
+            <h3>ASU Active Perception Group</h3>
+            <h4>Graduate Services Assistant</h4>
+            <p>
+                Worked as a Research Assistant with the Active Perception Group at ASU for Summer 2020. Conducted
+                research involving Autonomous Vehicles, Tracking, Navigation and Prediction methodologies.
+            </p>
         </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <!--<img src="images/project.jpg" /> -->
-                        <img src="images/overview_carla_paper_compressed.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Online Prediction for Vision-based Active Pursuit using Domain Agnostic Offline Motion Model</h3>
-                        <p>
-                            Vision-based pursuit-evasion algorithms have been known to predict the future location of an evader in a given environment.
-                            In this paper, we propose the use of an encoder-decoder LSTM as a predictive model that can produce a more accurate estimation of the evader's future location when compared to conventional filtering-based methods. We evaluate the effectiveness of our approach by setting up agents in a MORSE environment.
-                            We also show that our method is adaptable across domains without the explicit need to retrain the prediction module by evaluating it in a CARLA environment. <br> (Submitted to IEEE ICRA'21)
-                        </p>
-                        <a style="margin-right:1em",_blank" , href="https://github.com/varunjammula/morse_pursuit_evasion">View Project</a>
-                        <a target="_blank" , href="https://www.youtube.com/watch?v=LWRJg2nnG9Y">View Demo</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+        <div data-date="August 2019 - December 2019">
+            <h3>CIDSE ASU</h3>
+            <h4>Graduate Teaching Assistant</h4>
+            <p>
+                Teaching Assistant for CSE 110 - Principles of Programming (Java). Responsible for conducting Lab
+                Sessions, Office Hours and Grading Exams.
+            </p>
+        </div>
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <!--<img src="images/project.jpg" /> -->
-                        <img src="images/email_classification_resized_300x300.jpeg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Automatic Job Application Tracking using a Decision Tree Classifier </h3>
-                        <p>
-                        Hindered by COVID-19, we are all struggling to get hired. The number of applications one has to usually make just to get into an interview has nearly tripled owing to the undeniably trying circumstances.
-			Machine Learning-based Email-Classification is used to separate the application receipt emails from regular emails and to collect them under one label. This facilitates automatic application tracking. 
-				The emails under a single label can potentially be exported as a single file and a fixed schedule automizing the task of job application tracking. 
-                        </p>
-                        <a target = "_blank", href="https://github.com/sumedhgodbole/email-tracker">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/hci2.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>The Scope of Human Computer Interaction</h3>
-                                  <p> 
-                                 Native Android application to help obtain information about any location towards which the device camera is pointed, resulting in an elevated usability index (HCI) for conventionally used Navigation Apps.
-                                 It provides the user with a feature to pan the camera during which, an AR-based overlay containing information about the target location is displayed on the screen of the host device.
-                                 Processing of the sensor data and the rendering the overlay was done by leveraging the Android Studio IDE.
-                                 Our 4-member undergraduate team won first place in National Paper Presentation Threshold'17.
-                               </p>
-
-                        <a target = "_blank", href="https://docs.google.com/presentation/d/1mXTzdbUCucAvIkKrGjxIb5rvcbjBxBBwaYIL2OJjqBg/edit?usp=sharing">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
+        <div data-date="July 2018 – July 2019">
+            <h3>Sahir Projects</h3>
+            <h4>Machine Learning Engineer</h4>
+            <p>
+                Responsible for engineering a Machine Learning proof-of-concept exercise resulting in the eventual
+                adoption of a Machine Learning framework by the company.
+                Synthesized training data for the exercise by making use of random normal distributions and labeled it
+                using a complex rule based system.
+                Designed a model to predict the probability of a company winning a bid using a Random Forest classifier
+                for its low bias, resulting in a 9% increase in the number of bids won compared to the last financial
+                quarter.
+            </p>
         </div>
     </div>
-    <!-- End #projects -->
+</div>
+<!-- End #experience -->
 
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>JavaScript</li>
-            <li>HTML/CSS</li>
-            <li>Bootstrap</li>
-        </ul>
+<div id="education">
+    <h2 class="heading">Education</h2>
+    <div class="education-block">
+        <h3>Arizona State University</h3>
+        <span class="education-date">August 2019 - May 2021</span>
+        <h4>Master of Science in Computer Science (3.83/4.0)</h4>
+        <p>
+            Masters Student at CIDSE, ASU with the Thesis Option specializing in Artificial Intelligence.
+        </p>
     </div>
-    
-    <div id="skills">
-        <h2 class="heading">Frameworks/IDEs/Libraries</h2>
-        <ul>
-            <li><a target = "_blank", href="https://www.openrobots.org/morse/doc/stable/what_is_morse.html">MORSE</a></li>
-            <li><a target = "_blank", href="https://carla.org/">CARLA</a></li>
-            <li><a target = "_blank", href="https://www.ros.org/about-ros/">ROS</a></li> 
-            <li><a target = "_blank", href="http://gazebosim.org/">Gazebo</a></li> 
-            <li><a target = "_blank", href="https://developer.android.com/studio">Android Studio</a></li> 
-            <li><a target = "_blank", href="https://firebase.google.com/">Google Firebase</a></li>
-            <li><a target = "_blank", href="https://www.tensorflow.org/">Tensorflow</a></li>
-            <li><a target = "_blank", href="https://keras.io/">Keras</a></li>
-            <li><a target = "_blank", href="https://pytorch.org/">PyTorch</a></li>
-            <li><a target = "_blank", href="https://opencv.org/">OpenCV</a></li>
-            <li><a target = "_blank", href="https://www.anaconda.com/">Anaconda</a></li>
-            <li><a target = "_blank", href="https://python-pillow.org/">Pillow</a></li>
-            <li><a target = "_blank", href="https://seaborn.pydata.org/">Seaborn</a></li>
-            <li><a target = "_blank", href="https://matplotlib.org/">Matplotlib</a></li>
-            <li><a target = "_blank", href="https://scikit-learn.org/stable/">Scikit-Learn</a></li>
+    <!-- End .education-block -->
 
+    <div class="education-block">
+        <h3>Sant Gadge Baba Amravati University</h3>
+        <span class="education-date">July 2013 - Sept 2017</span>
+        <h4>Bachelor of Engineering in Computer Science and Engineering (9.11/10.0)</h4>
+        <p>Studied at JSMP's Babasaheb Naik College of Engineering, Amravati University. Ranked 7th on the University
+            Merit List for the Department of Computer Science.</p>
 
-
-        </ul>
     </div>
-    <!-- End #skills -->
+    <!-- End .education-block -->
+</div>
+<!-- End #education -->
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/f/mnqoznva">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
+<div id="projects" class="background-alt">
+    <h2 class="heading">Projects</h2>
+    <div class="container">
+        <div class="row">
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <!--<img src="images/project.jpg" /> -->
+                    <img src="images/overview_carla_paper_compressed.png"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Online Prediction for Vision-based Active Pursuit using Domain Agnostic Offline Motion
+                        Model</h3>
                     <p>
-                        Copyright &copy; 2021 SUMEDH GODBOLE
+                        Vision-based pursuit-evasion algorithms have been known to predict the future location of an
+                        evader in a given environment.
+                        In this paper, we propose the use of an encoder-decoder LSTM as a predictive model that can
+                        produce a more accurate estimation of the evader's future location when compared to conventional
+                        filtering-based methods. We evaluate the effectiveness of our approach by setting up agents in a
+                        MORSE environment.
+                        We also show that our method is adaptable across domains without the explicit need to retrain
+                        the prediction module by evaluating it in a CARLA environment. <br> (Submitted to IEEE ICRA'21)
                     </p>
+                    <a style="margin-right:1em" ,_blank" ,
+                    href="https://github.com/varunjammula/morse_pursuit_evasion">View Project</a>
+                    <a target="_blank" , href="https://www.youtube.com/watch?v=LWRJg2nnG9Y">View Demo</a>
                 </div>
-                <div class="col-sm-2 top">
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <!--<img src="images/project.jpg" /> -->
+                    <img src="images/email_classification_resized_300x300.jpeg"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Automatic Job Application Tracking using a Decision Tree Classifier </h3>
+                    <p>
+                        Hindered by COVID-19, we are all struggling to get hired. The number of applications one has to
+                        usually make just to get into an interview has nearly tripled owing to the undeniably trying
+                        circumstances.
+                        Machine Learning-based Email-Classification is used to separate the application receipt emails
+                        from regular emails and to collect them under one label. This facilitates automatic application
+                        tracking.
+                        The emails under a single label can potentially be exported as a single file and a fixed
+                        schedule automizing the task of job application tracking.
+                    </p>
+                    <a target="_blank" , href="https://github.com/sumedhgodbole/email-tracker">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/hci2.jpg"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>The Scope of Human Computer Interaction</h3>
+                    <p>
+                        Native Android application to help obtain information about any location towards which the
+                        device camera is pointed, resulting in an elevated usability index (HCI) for conventionally used
+                        Navigation Apps.
+                        It provides the user with a feature to pan the camera during which, an AR-based overlay
+                        containing information about the target location is displayed on the screen of the host device.
+                        Processing of the sensor data and the rendering the overlay was done by leveraging the Android
+                        Studio IDE.
+                        Our 4-member undergraduate team won first place in National Paper Presentation Threshold'17.
+                    </p>
+
+                    <a target="_blank" ,
+                       href="https://docs.google.com/presentation/d/1mXTzdbUCucAvIkKrGjxIb5rvcbjBxBBwaYIL2OJjqBg/edit?usp=sharing">View
+                        Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+        </div>
+    </div>
+</div>
+<!-- End #projects -->
+
+<div id="skills">
+    <h2 class="heading">Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C#</li>
+        <li>C++</li>
+        <li>JavaScript</li>
+        <li>HTML/CSS</li>
+        <li>Bootstrap</li>
+    </ul>
+</div>
+
+<div id="skills">
+    <h2 class="heading">Frameworks/IDEs/Libraries</h2>
+    <ul>
+        <li><a target="_blank" , href="https://www.openrobots.org/morse/doc/stable/what_is_morse.html">MORSE</a></li>
+        <li><a target="_blank" , href="https://carla.org/">CARLA</a></li>
+        <li><a target="_blank" , href="https://www.ros.org/about-ros/">ROS</a></li>
+        <li><a target="_blank" , href="http://gazebosim.org/">Gazebo</a></li>
+        <li><a target="_blank" , href="https://developer.android.com/studio">Android Studio</a></li>
+        <li><a target="_blank" , href="https://firebase.google.com/">Google Firebase</a></li>
+        <li><a target="_blank" , href="https://www.tensorflow.org/">Tensorflow</a></li>
+        <li><a target="_blank" , href="https://keras.io/">Keras</a></li>
+        <li><a target="_blank" , href="https://pytorch.org/">PyTorch</a></li>
+        <li><a target="_blank" , href="https://opencv.org/">OpenCV</a></li>
+        <li><a target="_blank" , href="https://www.anaconda.com/">Anaconda</a></li>
+        <li><a target="_blank" , href="https://python-pillow.org/">Pillow</a></li>
+        <li><a target="_blank" , href="https://seaborn.pydata.org/">Seaborn</a></li>
+        <li><a target="_blank" , href="https://matplotlib.org/">Matplotlib</a></li>
+        <li><a target="_blank" , href="https://scikit-learn.org/stable/">Scikit-Learn</a></li>
+
+
+    </ul>
+</div>
+<!-- End #skills -->
+
+<div id="contact">
+    <h2>Get in Touch</h2>
+    <div id="contact-form">
+        <form method="POST" action="https://formspree.io/f/mnqoznva">
+            <input type="hidden" name="_subject" value="Contact request from personal website"/>
+            <input type="email" name="_replyto" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <!-- End #contact-form -->
+</div>
+<!-- End #contact -->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 copyright">
+                <p>
+                    Copyright &copy; 2021 SUMEDH GODBOLE
+                </p>
+            </div>
+            <div class="col-sm-2 top">
                     <span id="to-top">
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/sumedhgodbole" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <!--
-                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li> 
-                        -->
-                        <li>
-                            <a href="https://www.linkedin.com/in/sumedhgodbole/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/SumedhRG/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/sumedh_godbole" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <!--
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                        -->
-                    </ul>
-				<!-- unique hitwebcounter Code START -->
-					<a href="https://www.hitwebcounter.com" target="_blank">
-					<img src="https://hitwebcounter.com/counter/counter.php?page=7814471&style=0007&nbdigits=5&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>      
-                </div>
+            </div>
+            <div class="col-sm-5 social">
+                <ul>
+                    <li>
+                        <a href="https://github.com/sumedhgodbole" target="_blank"><i class="fa fa-github"
+                                                                                      aria-hidden="true"></i></a>
+                    </li>
+                    <!--
+                     <li>
+                        <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                    </li>
+                    -->
+                    <li>
+                        <a href="https://www.linkedin.com/in/sumedhgodbole/" target="_blank"><i class="fa fa-linkedin"
+                                                                                                aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/SumedhRG/" target="_blank"><i class="fa fa-facebook"
+                                                                                        aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/sumedh_godbole" target="_blank"><i class="fa fa-twitter"
+                                                                                        aria-hidden="true"></i></a>
+                    </li>
+                    <!--
+                    <li>
+                        <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </li>
+                    -->
+                </ul>
+                <!-- unique hitwebcounter Code START -->
+                <a href="https://www.hitwebcounter.com" target="_blank">
+                    <img src="https://hitwebcounter.com/counter/counter.php?page=7814471&style=0007&nbdigits=5&type=ip&initCount=0"
+                         title="Free Counter" Alt="web counter" border="0"/></a>
             </div>
         </div>
-    </footer>
-    <!-- End footer -->
+    </div>
+</footer>
+<!-- End footer -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
 </body>
 
 </html>
